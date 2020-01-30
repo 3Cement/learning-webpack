@@ -4,7 +4,8 @@
   "description": "A Package about learining webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "watch": "webpack --watch"
   },
   "author": "Daniel Milewski",
   "license": "ISC",
