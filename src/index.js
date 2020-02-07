@@ -7,6 +7,8 @@
 
 // console.log(person.name);
 
+import '../dist/css/style.css';
+
 class Client {
     constructor(firstname, lastname) {
         this.firstname = firstname;
