@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const shoppingCart = ['Product 1', 'Product 2', 'Product 3', 'Product 4'];\nconsole.log(shoppingCart);\n\nconst person = {\n    name : 'Daniel'\n}\n\nconsole.log(person.name);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n// const shoppingCart = ['Product 1', 'Product 2', 'Product 3', 'Product 4'];\n// console.log(shoppingCart);\n// const person = {\n//     name : 'Daniel'\n// }\n// console.log(person.name);\nvar Client =\n/*#__PURE__*/\nfunction () {\n  function Client(firstname, lastname) {\n    _classCallCheck(this, Client);\n\n    this.firstname = firstname;\n    this.lastname = lastname;\n  }\n\n  _createClass(Client, [{\n    key: \"displayCompleteName\",\n    value: function displayCompleteName() {\n      return \" \".concat(firstname, \" \").concat(lastname);\n    }\n  }]);\n\n  return Client;\n}();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
