@@ -52,5 +52,10 @@ module.exports = {
             template: 'src/index.html',
             title: 'Our Webpack application'
         }) // generate the default index.html
-    ]
+    ],
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        compress: true,
+        port: 9000
+    }
 }

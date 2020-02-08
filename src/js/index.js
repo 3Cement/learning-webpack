@@ -1,3 +1,3 @@
 import '../scss/style.scss';
 
-console.log('Index Homepage');
+console.log('Hello');
