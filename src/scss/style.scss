@@ -1,9 +1,15 @@
-$primary: green;
-$secondary: blue;
+$primary: cornflowerblue;
+$secondary: white;
 
-body {
-    background-color: $secondary;
-}
-h1 {
-    color: $primary;
+#clients {
+    li {
+        padding: 1rem;
+        list-style: none;
+        background-color: $primary;
+        color: $secondary;
+        &:nth-child(odd) {
+            background-color: $secondary;
+            color: $primary;
+        }
+    }
 }
