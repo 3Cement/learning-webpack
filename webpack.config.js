@@ -32,8 +32,19 @@ module.exports = {
                     {loader: "css-loader"},
                     {loader: "sass-loader"}
                 ]
-            }
-            
+            },
         ]
+    },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: "common",
+                    enforce: true,
+                    chunks: "all"
+                }
+            }
+        }
     }
 }
