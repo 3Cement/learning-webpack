@@ -7,7 +7,7 @@
 
 // console.log(person.name);
 
-import '../dist/css/style.css';
+import './scss/style.scss';
 
 class Client {
     constructor(firstname, lastname) {
